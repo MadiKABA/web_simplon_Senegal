@@ -25,10 +25,50 @@
 }
 #section_resau_entrerprise
 {
-    margin: 10px 55px;
+    margin: 60px 55px;
 }
-hr{
-    width: 15%;
-    height: 3rem;
-    background-color: black;
+#div_hr hr{
+    width: 15%; height: 5px; margin-top: -5px; background-color:black;
 }
+h2{
+    color: #CE0033;
+    font-family: Nunito Sans;
+    font-size: 48px;
+}
+#description_video
+{
+    margin-top: 105px;
+    margin-bottom: 40px;
+}
+h3{
+    padding: auto;
+    color:#CE0033;
+    font-family: Nunito Sans bold;
+    font-size: 30px;
+}
+#description_video p{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    padding: 5px;
+}
+.notre_reseau_entreprise 
+{
+    margin-left:700px;
+    margin-bottom: 50px;
+    
+}
+.notre_reseau_entreprise button
+{
+    margin-left:80px;
+    background-color:#CE0033;
+    width: 306px;
+    height: 63px;
+    border-radius: 50px;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    
+}
+.carousel {
+    margin: 10px 138px;
+}
+
