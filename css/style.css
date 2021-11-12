@@ -6,176 +6,102 @@
 body
 {
     overflow-x:hidden ;
+    background-color: whitesmoke;
 }
-#nav_bar
+.form_comtact button
 {
-    margin-top: 25px;
-    width: 100%;
-}
-.lien_li button
-{
-    margin-top: 10px;
-    margin-right: 20px;
-    background-color:#CE0033;
-    width: 150px;
-    height: 40px;
+    background-color: red;
     border-radius: 50px;
-    text-align: center;
-    color: white;
 }
-#form_lang
-{
-    margin-top: 11px;
-}
-.col-md-3 a{
-    margin-left: 55px;
-}
-.col-md-9 ul{
-    margin-left: 100px;
-}
-h1{
-    position: absolute;
-    left: 25rem;
-    top: 30rem;
-    color: white;
-}
-.navbar-nav li{
-    margin: 10px 20px;
-}
-#section_resau_entrerprise
-{
-    margin: 60px 55px;
-}
-#div_hr hr{
-    width: 15%; height: 5px; margin-top: -5px;
-    color: black;
-}
-
-h2{
-    color: #CE0033;
-    font-family: Nunito Sans;
-    font-size: 48px;
-}
-#description_video
-{
-    margin-top: 105px;
-    margin-bottom: 40px;
-}
-h3{
-    padding: auto;
-    color:#CE0033;
-    font-family: Nunito Sans bold;
-    font-size: 30px;
-}
-#description_video p{
-    font-family: Nunito Sans;
-    font-size: 24px;
-    padding: 5px;
-}
-
-.notre_reseau_entreprise button
-{
-    /*-left:80px;*/
-    background-color:#CE0033;
-    width: 306px;
-    height: 60px;
-    border-radius: 50px;
-    font-family: Nunito Sans;
-    font-size: 24px;
-    
-}
-
-.carousel {
-    margin: 10px 138px;
-}
-.img_fond
+.img_partenariat
 {
     position: relative;
 }
-.img_fond img{
-    height: 55%;
-}
-#filtre_image
-{
+h1{
     position: absolute;
-    background-color: black;
-    width: 100%;
-    height: 55%;
-    top: 0;
-    opacity: 0.3;
+    top: 35%;
+    left: 31%;
+    color: white;
 }
-.contenue_nous_soutenir
+.centre
 {
-    position: absolute;
+    text-align: center;
+}
+.d1
+{
+    width: 100rem;
+    margin: 0;
+}
+#filtre_img
+{
     top: 0;
     left: 0;
-    width: 100%;
-    height: 50%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
 }
-.contenue_nous_soutenir div{
-    margin-top: 50px;
-    color: white;
-}
-.div_video
+.contenue_soutenir_nos_action
 {
-    
-    height: 70%;
-    width: 40%;
-    margin-left: 5rem;
-    border-radius: 20px;
+    top: 10%;
 }
-.div_video video
+.img-nous_soutenir
 {
-    height: 500px;
-    width: 100%;
-    border-radius: 20px;
-    
+    height: 35rem;
 }
-.div_texte h3
+.div_video_soutenir
 {
-    margin-top: 50px;
-    color: white;
-    font-family: Nunito Sans bold;
-    font-size: 30px;
-    
+    margin-left: 3rem;
 }
-.div_detail-actions
+.detail_soutenir
 {
-    position: absolute;
-    background-color: #CE0033;
-    height: 650px;
-    width: 54rem;
-    top: 48%;
-    left: 16%;
-    opacity: 0.9;
+    background-color: red;
+    top: 90%;
 }
-.div_description {
-    margin-top: 70px;
 
+/*ant*/
+.img_container
+{
+    background-image: url("../img/main.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
 }
-.div_description h3
+.video{
+    top: 12%;
+    width: 50rem;
+}
+.description
+{
+    top: 12%;
+    width: 30rem;
+    right: 5%;
+}
+.div_detail
+{
+    background-color: red;
+    margin-top: -5rem;
+}
+.logo_partenaires
+{
+    margin: 10px;
+}
+.footer
+{
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    width: 100%;
+}
+.footer_red
+{
+    background-color: red;
+    width: 100%;
+    height: 80px
+}
+.col_footer
 {
     color: white;
-    text-align: center;
-    padding: 20px;
 }
-.div_description p
-{
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-.bor_formation
-{
-   border-right: 5px solid white;
-   display: inline-block;
-   height: 400px;
-    
-}
-#btn_soutenir
-{
-    background-color:white;
-    width: 206px;
-    height: 50px;
-}
+
+
+
 
