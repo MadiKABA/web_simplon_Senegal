@@ -89,8 +89,6 @@ h2
     font-size: 24px;
     line-height: 53px;
     color: #000000;
-
-
 }
 .reseau_entreprise h3
 {
@@ -302,6 +300,8 @@ color: rgba(255, 255, 255, 0.84);
     width: 250px;
     height: 58px;
     border: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 #joindre
 {
@@ -325,8 +325,9 @@ color: rgba(255, 255, 255, 0.84);
       }
       .reseau_sociaux
       {
-          width: 50px;
-          height: 60px;
+          width: 25px;
+          height: 25px;
+          margin: 0;
       }
       #le_reseaux_des_entreprises
       {
@@ -343,6 +344,19 @@ color: rgba(255, 255, 255, 0.84);
       {
         margin-left:2rem;
       }
+      #news_letter
+      {
+          margin-left: 0;
+      }
+      #joindre
+      {
+          margin-left: -100px;
+      }
+      .col-red2
+      {
+          margin-left: 30px;
+      }
+      
   }
  
   /* Accueil */
