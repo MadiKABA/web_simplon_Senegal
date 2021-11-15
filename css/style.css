@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -8,14 +9,45 @@ body
     overflow-x:hidden ;
     background-color: whitesmoke;
 }
-.form_comtact button
+.row >*
 {
-    background-color: red;
-    border-radius: 50px;
+    padding: 0;
+}
+.logo
+{
+    width: 25%;
+    height: 60px;
+}
+.lien_li
+{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: bold;
+}
+.contact 
+{
+   background-color: #CE0033;
+   border-radius: 50px;
+   width: 100px;
+   color: #FFFFFF;
+}
+#langue
+{
+    margin-top: 0.8rem;
+    width: 50px;
+    height: 25px;
+}
+.partenariats
+{
+    border-bottom: 5px solid #CE0033;
 }
 .img_partenariat
 {
     position: relative;
+}
+.img_banner
+{
+    filter: saturate(0);
 }
 h1{
     position: absolute;
@@ -27,63 +59,188 @@ h1{
 {
     text-align: center;
 }
+.hr_bar{
+    width: 125px;
+    height: 5px;
+    background-color: black;
+    color: black;
+    margin-top: -10px;
+}
+#le_reseaux_des_entreprises
+{
+    margin: 0 40px;
+}
+h2
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    color: #CE0033;
+    padding-bottom: 15px;
+}
+.reseau_entreprise p
+{
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 53px;
+    color: #000000;
+
+
+}
+.reseau_entreprise h3
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 171.4%;
+    color: #CE0033;
+}
+.btn_carousel
+{
+    margin-top: 10px;
+}
+.centre h3
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    color: #CE0033;
+}
+.centre button
+{
+    margin:2rem 0;
+    background-color: #CE0033;
+    border-radius: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+.filtre_img
+{
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+}
+.vido_soutenir iframe
+{
+    margin-top: 30px;
+    border-radius: 15px;
+    margin-left: 40px;
+    z-index: 0;
+}
 .d1
 {
     width: 100rem;
     margin: 0;
 }
-#filtre_img
-{
-    top: 0;
-    left: 0;
-    background-color: black;
-    opacity: 0.4;
-    z-index: 1;
-}
-.contenue_soutenir_nos_action
-{
-    top: 10%;
-}
-.img-nous_soutenir
-{
-    height: 35rem;
-}
-.div_video_soutenir
-{
-    margin-left: 3rem;
-}
+
 .detail_soutenir
 {
-    background-color: red;
+    background-color: #CE0033;
     top: 90%;
 }
-
+.div_formation h4{
+    color: white;
+    text-align: center;
+    padding:0 5px;
+    font-size: 30px;
+}
+.div_formation p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+.soutenir
+{
+    width: 200px;
+    margin: 0 auto;
+    color: #CE0033;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-size: 24px;
+    font-family: bold;
+}
+.btn_fabrique
+{
+    width: 292px;
+    height: 63px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #CE0033;
+    border-radius: 50px;
+    font-size: 24px;
+    font-family: bold;   
+}
 /*ant*/
 .img_container
 {
-    background-image: url("../img/main.jpg");
+    background-image: url("../img/main2.jpg");
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 900px;
+    
 }
-.video{
-    top: 12%;
-    width: 50rem;
-}
-.description
+.detail_nous_soutenir h2
 {
-    top: 12%;
-    width: 30rem;
-    right: 5%;
+    margin-top: 60px;
+    color: white;
+    font-family: bold;
+    padding: 5px;
+    
+}
+.detail_nous_soutenir p
+{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 171.4%;
 }
 .div_detail
 {
-    background-color: red;
-    margin-top: -5rem;
+    background-color: #CE0033;
+    margin-top: -3rem;
+    z-index: 1;
+}
+.div_formation
+{
+    margin-top: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+}
+.bar_separation{
+  border-right: 3px solid;
+  border-left: 3px solid;
+}
+.div_card
+{
+    border-radius: 50px;
 }
 .logo_partenaires
 {
-    margin: 10px;
+    margin: 1pxx;
+    height: 200px;
 }
 .footer
 {
@@ -93,13 +250,113 @@ h1{
 }
 .footer_red
 {
-    background-color: red;
+    background-color: #CE0033;
     width: 100%;
-    height: 80px
+    color: white;
+
+    
 }
 .col_footer
 {
     color: white;
+    margin-top: 3rem;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.col_footer_new
+{
+    color: #ffffff;
+    margin-top: 5rem;
+
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 42px;
+
+color: rgba(255, 255, 255, 0.84);
+}
+.section_fabrique
+{
+    margin: 0 55px;
+}
+.div_footer_span
+{
+    margin-top: 120px;
+
+}
+.heart
+{
+    width: 40px;
+}
+.col-red1 span 
+{
+    margin-left: 2rem;
+}
+.col-red2 span 
+{
+    margin-left: 18rem;
+}
+#email
+{
+    width: 250px;
+    height: 58px;
+    border: 0;
+}
+#joindre
+{
+    width: 100px;
+    height: 58px;
+    background-color:#CE0033;
+    color: white;
+    font-size: 24px;
+    border: 0;
+}
+
+@media screen and (max-width: 450px) {
+    .bar_separation{
+        border-right: none;
+        border-left: none;
+        border-top: 3px solid;
+        border-bottom: 3px solid;
+      }
+      main{
+          overflow-x: hidden;
+      }
+      .reseau_sociaux
+      {
+          width: 50px;
+          height: 60px;
+      }
+      #le_reseaux_des_entreprises
+      {
+          margin-left: 10px;
+      }
+      #entreprise{
+          margin-top: 150px;
+      }
+      .col_footer
+      {
+          margin-left:2rem;
+      }
+      .col_footer_new
+      {
+        margin-left:2rem;
+      }
+  }
+ 
+  /* Accueil */
+.lien_item
+{
+    font-family: 'Nunito Sans', sans-serif;
+   font-size: 20px;
+}
+.logo_simplon_footer
+{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -px;
 }
 
 
