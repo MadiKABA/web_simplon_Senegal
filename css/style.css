@@ -286,28 +286,72 @@ color: #000000;
     background-color: #CE0033;
     width: 100%;
     color: white;
-
-    
 }
-.col_footer
+.footer_red span
+{
+    margin: 50px;
+    color: #FFFFFF;
+
+}
+#span1
+{
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+}
+#span2
+{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+
+}
+#span3
+{
+
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #FFFFFF;
+
+
+}
+.col_footer 
 {
     color: white;
     margin-top: 3rem;
-    font-size: 24px;
+    font-size: 10px;
     padding-top: 10px;
 }
-.col_footer_new
+.col_footer p
 {
-    color: #ffffff;
-    margin-top: 5rem;
 
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 42px;
+    color: rgba(255, 255, 255, 0.84);
+}
+.col_footer_new
+{
+    color: #ffffff;
+    margin-top: 5rem;
 
-color: rgba(255, 255, 255, 0.84);
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 42px;
 }
 .section_fabrique
 {
@@ -326,9 +370,9 @@ color: rgba(255, 255, 255, 0.84);
 {
     margin-left: 2rem;
 }
-.col-red2 span 
+.col-red2 span
 {
-    margin-left: 18rem;
+    margin-right: 0;
 }
 .reseau_sociaux
 {
@@ -379,11 +423,15 @@ color: rgba(255, 255, 255, 0.84);
       }
       .col_footer
       {
-          margin-left:2rem;
+          margin-left:5rem;
       }
       .col_footer_new
       {
-        margin-left:2rem;
+        margin-left:5rem;
+      }
+      .div_reseau_sociaux
+      {
+        margin-left: 7rem;
       }
       #news_letter
       {
@@ -393,9 +441,9 @@ color: rgba(255, 255, 255, 0.84);
       {
           margin-left: -50px;
       }
-      .col-red2
+      .col-red2 
       {
-          margin-left: 30px;
+          margin-left: 600px;
       }
       .reseau_entreprise 
       {
@@ -415,6 +463,10 @@ color: rgba(255, 255, 255, 0.84);
       .div_detail
       {
           margin-top: -2rem;
+      }
+      .footer_red
+      {
+          display: block;
       }
       
   }
