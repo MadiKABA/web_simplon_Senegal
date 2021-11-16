@@ -6,30 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simplon.Senegal</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slide.css">
 </head>
 <body>
   <main>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a href=""><img src="img/simplon_senegal.png" alt="" class="img-fluid" style="width: 100px;"></a>
+        <a href=""><img src="img/simplon_senegal.png" alt="" class="img-fluid mx-5" style="width: 100px;"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
         </button>
           <div class="collapse navbar-collapse w-100 border justify-content-between" id="navbarTogglerDemo02">
             <span></span>
-            <ul class="navbar-nav ml-auto  mb-2 mb-lg-0 border">
+            <ul class="navbar-nav ml-auto  mb-2 mb-lg-0">
               <li class="nav-item mx-2">
-                <a class="nav-link active lien_item" href="#">Accueil</a>
+                <a class="nav-link  lien_item" href="#">Accueil</a>
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link lien_item" href="#">Fabrique</a>
               </li>
-              <li class="nav-item mx-2">
+              <li class="nav-item mx-2 ">
                 <a class="nav-link lien_item" href="#">Formation</a>
               </li>
-              <li class="nav-item mx-2">
-                <a class="nav-link lien_item partenariats" href="#">Partenariats</a>
+              <li class="nav-item mx-2 partenariats active">
+                <a class="nav-link lien_item text-danger" href="#">Partenariats</a>
               </li>
               <li class="nav-item mx-2">
                 <a class="nav-link lien_item" href="#">Espace</a>
@@ -41,7 +42,7 @@
                 <a href="#" class="nav-link active"><img src="img/search.png" alt="" style="width: 25px;"></a>
               </li>
               <li class="nav-item mx-2 lien_item ">
-                <form class="mx-2 form_comtact input-goup">
+                <form class="mx-2  input-goup">
                   <select name="langue" id="langue" class="">
                     <option>Fr</option>
                     <option>En</option>
@@ -65,54 +66,65 @@
     </section>
     <section id="le_reseaux_des_entreprises" style="margin-top: -200px;">
       <div class="row">
-        <div class="col-md-12 col-ms-12">
-            <h2 id="entreprise">Le reseau des entreprise</h2>
+        <div class="col-md-12 col-ms-12 " id="entreprise">
+            <h2 >Le reseau des entreprise</h2>
             <div class="hr_bar"></div>
         </div>
       </div>  
       <div class="row my-2">
-        <div class="col-md-6">
-          <iframe style=" width:770px; height:532px" src="https://youtu.be/0PeqnLq12V8" allowfullscreen></iframe>
-        </div>
-        <div class="col-md-6 reseau_entreprise">
-          <h3>C'est quoi le reseau des entreprises ?</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Non eligendi asperiores cum doloremque nisi aspernatur
-            illo expedita impedit eius delectus nam commodi tempore 
-            adipisci quae hic odio, quod voluptates alias.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Nesciunt, voluptate. Consequatur ut minus laborum optio ab,
-            reiciendis fuga quae voluptates aut architecto ipsum, 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Adipisci molestias veritatis, rerum doloribus, consequuntur
-            architecto sint voluptates odit aliquid fugit corporis vel 
-            voluptatem eveniet facilis nihil asperiores, quis necessitatibus labore.
-          </p>
-        </div>
+        <div class="row">
+          <div class="col-md-6  col-ms-6 vido_soutenir">
+            <iframe style=" width:90%; height: 500px" src="https://youtu.be/0PeqnLq12V8" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6 col-ms-6 reseau_entreprise">
+            <H3 class="my-3 mt-5">C'est quoi le reseau des entreprise</H3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Non eligendi asperiores cum doloremque nisi aspernatur
+              illo expedita impedit eius delectus nam commodi tempore 
+              adipisci quae hic odio, quod voluptates alias.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              
+            </p>
+          </div>
       </div>
-        <div class="container my-3">
-          <div class="row">
-            <div class="col-md-12 centre">
-              <h3>Notre reseau d'entrerprise</h3>
-              <div class="row">
-                  <div class="d-flex">
-                    <img src="img/image3.svg" class="img-fluid w-25 logo_partenaires" alt="">
-                    <img src="img/image4.svg" class="img-fluid w-25 logo_partenaires" alt="">
-                    <img src="img/image5.svg" class="img-fluid w-25 logo_partenaires" alt="">
-                    <img src="img/image6.svg" class="img-fluid w-25 logo_partenaires" alt="">
-                    <img src="img/image7.svg" class="img-fluid w-25 logo_partenaires" alt="">
-                  </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 centre">
+            <h3>Notre reseau d'entrerprise</h3>
+            <div id="testimonial-slider" class="owl-carousel">
+              <div class="testimonial">
+                <img src="img/image3.svg" class="img-fluid w-25 logo_partenaires" alt="">
               </div>
-              <button type="button" class="btn btn-danger">Rejoindre le réseau</button>
+              <div class="testimonial">
+                  <img src="img/image6.svg" class="img-fluid w-100 logo_partenaires" alt="">
+              </div>
+              <div class="testimonial">
+                <img src="img/image4.svg" class="img-fluid w-100 logo_partenaires" alt="">
+              </div>
+              <div class="testimonial">
+                <img src="img/image5.svg" class="img-fluid w-100 logo_partenaires" alt="">
+              </div>
+              <div class="testimonial">
+                <img src="img/partenaire1.svg" class="img-fluid w-25 logo_partenaires" alt="">
+              </div>
+              <div class="testimonial">
+                <img src="img/image7.svg" class="img-fluid w-25 logo_partenaires" alt="">
+              </div>
+              <div class="testimonial">
+                <img src="img/partenaire1.svg" class="img-fluid w-25 logo_partenaires" alt="">
+              </div>
             </div>
+            <button type="button" class="btn btn-danger">Rejoindre le réseau</button>
           </div>
         </div>
+      </div>
     </section>
     <section class="">
         <div class="row img_container ">
               <div class="col-md-6  col-ms-6 vido_soutenir">
-                <iframe style=" width:90%; height:70%" src="https://youtu.be/0PeqnLq12V8" allowfullscreen></iframe>
+                <iframe style=" width:90%; height:500px" src="https://youtu.be/0PeqnLq12V8" allowfullscreen></iframe>
               </div>
               <div class="col-md-6 col-ms-6 detail_nous_soutenir">
                 <H2>Soutenir nos actions</H2>
@@ -167,7 +179,7 @@
       </div>
       </div>
       <div class="row my-5">
-        <div class="col-md-12 ">
+        <div class="col-md-12 fabrique">
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Non eligendi asperiores cum doloremque nisi aspernatur
@@ -181,26 +193,26 @@
       </div>
       <div class="row">
         <div class="card-group">
-          <div class="card mx-3" style="border-radius: 25px;">
-            <img src="img/1080.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+          <div class="card mx-3" style="border-radius: 20px;">
+            <img src="img/1080.jpg" class="card-img-top" style=" border-top-right-radius: 20px; border-top-left-radius: 20px;" alt="...">
+            <div class="card-body text_card_body">
               <h5 class="card-title">Fabrique 1</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mx-3" style="border-radius: 25px;">
-            <img src="img/img1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+          <div class="card mx-3" style="border-radius: 20px;">
+            <img src="img/img1.jpg" class="card-img-top" style=" border-top-right-radius: 20px; border-top-left-radius: 20px;" alt="...">
+            <div class="card-body text_card_body" >
               <h5 class="card-title">Fabrique 2</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
-          <div class="card mx-3 " style="border-radius: 25px;">
-            <img src="img/pexel1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Fabrique 1</h5>
+          <div class="card mx-3 " style="border-radius: 20px;">
+            <img src="img/img1.jpg" class="card-img-top " style=" border-top-right-radius: 20px; border-top-left-radius: 20px;"  alt="...">
+            <div class="card-body text_card_body">
+              <h5 class="card-title">Fabrique 3</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
@@ -220,7 +232,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="row">
-                <div class="d-flex">
+                <div class="d-flex my-5">
                   <img src="img/image3.svg" class="img-fluid w-100 logo_partenaires" alt="">
                   <img src="img/image4.svg" class="img-fluid w-100 logo_partenaires" alt="">
                   <img src="img/image5.svg" class="img-fluid w-100 logo_partenaires" alt="">
@@ -237,70 +249,82 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="row footer">
-        <div class="col-md-3 d3 my-5 ">
-          <div class="w-50 h-50 mx-5">
-            <img src="img/simplon_white.svg" alt="" class="img-fluid w-100">
-            <span class="logo_simplon_footer">SENEGAL</span>
-          </div>
-          <div class="row">
-            <div class="col-md-9 d-flex mx-3 my-3">
-              <img src="img/twitter(1).png" class="img-fluid w-100 reseau_sociaux" alt="">
-              <img src="img/facebook(2).png" class="img-fluid w-100 reseau_sociaux" alt="">
-              <img src="img/instagram(2).png" class="img-fluid w-100 reseau_sociaux" alt="">
-              <img src="img/formationsproBestResolution.jpg" class="img-fluid w-100 reseau_sociaux" alt="">
-            </div>
-          </div>
-          </div>
-          <div class="col-md-3 col_footer">
-            <h4>Voir plus</h4>
-            <span>A propos</span><br>
-            <span>Notre histoire</span><br>
-            <span>Condition d’utilisation</span><br>
-            <span>Politique de confidentialité</span><br>
-            <span>FAQ</span>
-          </div>
-        <div class="col-md-3 col_footer">
-          <h4>Coordonnées</h4>
-          <div>
-            <span>Cité keur Goor Gi</span><br>
-            <span>Dakar, Sicap, Libeté 2</span><br>
-            <span>Senegal</span><br>
-          </div>
-          <div class="my-3">
-            <span>simplon@email.com</span><br>
-            <span>help@simplon.com</span><br>
-            <span>(221) 77 654 32 10</span><br>
-            <span>(221) 77 456 78 90</span><br>
-          </div>
-        </div>
-        <div class="col-md-3 col_footer_new">
-          <div>
-            <span>Souscrivez-vous à notre</span><br>
-            <span>newsletter pour ne manquer</span><br>
-            <span>aucune de nos activités</span><br> 
-          </div>
-          <div class="news_letter">
-            <form action="envoie">
-              <div class="d-flex my-5">
-                <input type="text" name="email" id="email" placeholder="Email">
-                <input type="submit" name="joindre" id="joindre" value="Joindre">
+    <footer style="width: 100%;">
+      <div class="footer d-flex w-100">
+        <div class="row w-100">
+            <div class="col-md-3">
+              <div class="row mt-5">
+                <div class="col-md-6 mx-5">
+                  <img src="img/simplon_white.svg" alt="" class="img-fluid w-75">
+                  <span class="logo_simplon_footer">SENEGAL</span>
+                </div>
+                <div class="col-md-6 d-flex mx-5 my-3">
+                  <img src="img/twitter(1).png" class="img-fluid  reseau_sociaux" alt="">
+                  <img src="img/facebook(2).png" class="img-fluid reseau_sociaux" alt="">
+                <img src="img/instagram(2).png" class="img-fluid reseau_sociaux" alt="">
+                  <img src="img/youtube.jpg" class="img-fluid reseau_sociaux" alt="">
+                </div>
               </div>
-            </form>
-          </div>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-4 col_footer">
+                  <h4>Voir plus</h4>
+                  <p>A propos<br>
+                  Notre histoire<br>
+                  <span>Condition d’utilisation</span><br>
+                  <span>Politique de confidentialité</span><br>
+                  <span>FAQ</span>
+                </div>
+                <div class="col-md-4 col_footer">
+                  <h4>Coordonnées</h4>
+                  <p>Cité keur Goor Gi<br>Dakar, Sicap, Libeté 2<br>Senegal</sp><br>
+                  <p>simplon@email.com<br>help@simplon.com<br>(221) 77 654 32 10</span><br>(221) 77 456 78 90<br>
+                </div>
+                <div class="col-md-4 col_footer_new">
+                  <div>
+                    <p>Souscrivez-vous à notre<br>newsletter pour ne manquer<br>aucune de nos activités</p> 
+                  </div>
+                  <div class="news_letter">
+                    <form action="envoie">
+                      <div class="d-flex my-5">
+                        <input type="text" name="email" id="email" placeholder="Email">
+                        <input type="submit" name="joindre" id="joindre" value="Joindre">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
-      <div class="row footer_red">
-          <div class="col-md-6 col-ms-6 colcol-red1 col-red2">
+      <div class="d-flex footer_red">
+          <div class=" colcol-red1 col-red2">
             <span> © 2021 Simplon. All rights reserved.</span>
           </div>
-          <div class="col-md-6 col-ms-6 col-red2">
+          <div class="col-red2">
             <span>Made with<img src="img/heart(1).png" class="img-fluid heart " alt=""> by SimplonP4</span>
           </div>
       </div>
     </footer>
 </main>
-    <script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/slidejquery.js"></script>
+  <script>
+    $(document).ready(function() {
+      $("#testimonial-slider").owlCarousel({
+        items: 5,
+        itemsDesktop: [1000, 4],
+        itemsDesktopSmall: [990, 4],
+        itemsTablet: [768, 1],
+        pagination: true,
+        navigation: false,
+        navigationText: ["", ""],
+        slideSpeed: 1000,
+        autoPlay: true
+      });
+    });
+  </script>
+     
 </body>
 </html>

@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 body
 {
@@ -11,7 +12,8 @@ body
 }
 .row >*
 {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 .logo
 {
@@ -33,13 +35,19 @@ body
 }
 #langue
 {
-    margin-top: 0.8rem;
+    margin-top: 0.5rem;
     width: 50px;
     height: 25px;
 }
+
 .partenariats
 {
     border-bottom: 5px solid #CE0033;
+    color: blue;
+}
+#entreprise{
+    margin-left: 30px;
+    
 }
 .img_partenariat
 {
@@ -68,7 +76,7 @@ h1{
 }
 #le_reseaux_des_entreprises
 {
-    margin: 0 40px;
+    margin-left: 55px;
 }
 h2
 {
@@ -123,6 +131,7 @@ h2
     font-size: 24px;
     line-height: 33px;
     color: #FFFFFF;
+    margin-bottom: 25px;
 
 }
 .filtre_img
@@ -189,6 +198,8 @@ h2
     background-size: cover;
     width: 100%;
     height: 900px;
+    padding: 0;
+    margin: 0;
     
 }
 .detail_nous_soutenir h2
@@ -224,12 +235,36 @@ h2
     line-height: 41px;
     text-align: center;
     color: #FFFFFF;
-
-
 }
 .bar_separation{
   border-right: 3px solid;
   border-left: 3px solid;
+}
+.img_card
+{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.fabrique p
+{
+
+font-family:'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 41px;
+color: #000000;
+}
+.text_card_body
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #000000;
+    text-align: center;
+    padding: 30px;
 }
 .div_card
 {
@@ -295,13 +330,18 @@ color: rgba(255, 255, 255, 0.84);
 {
     margin-left: 18rem;
 }
+.reseau_sociaux
+{
+    width: 50px;
+
+}
 #email
 {
     width: 250px;
     height: 58px;
     border: 0;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 #joindre
 {
@@ -311,8 +351,9 @@ color: rgba(255, 255, 255, 0.84);
     color: white;
     font-size: 24px;
     border: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-
 @media screen and (max-width: 450px) {
     .bar_separation{
         border-right: none;
@@ -325,16 +366,16 @@ color: rgba(255, 255, 255, 0.84);
       }
       .reseau_sociaux
       {
-          width: 25px;
-          height: 25px;
-          margin: 0;
+          width: 50px;
+          height: 50px;
       }
       #le_reseaux_des_entreprises
       {
           margin-left: 10px;
       }
       #entreprise{
-          margin-top: 150px;
+          margin-top: 200px;
+          
       }
       .col_footer
       {
@@ -350,11 +391,30 @@ color: rgba(255, 255, 255, 0.84);
       }
       #joindre
       {
-          margin-left: -100px;
+          margin-left: -50px;
       }
       .col-red2
       {
           margin-left: 30px;
+      }
+      .reseau_entreprise 
+      {
+          margin:0 40px;
+          padding: 30px;
+      }
+      .detail_nous_soutenir
+      {
+          margin: 0 20px;
+          padding: 30px;
+          margin-top: -50px;
+      }
+      .img_container 
+      {
+          height: 1500px;
+      }
+      .div_detail
+      {
+          margin-top: -2rem;
       }
       
   }
@@ -363,7 +423,9 @@ color: rgba(255, 255, 255, 0.84);
 .lien_item
 {
     font-family: 'Nunito Sans', sans-serif;
-   font-size: 20px;
+    font-size: 16px;
+    color:yellow;
+   
 }
 .logo_simplon_footer
 {
@@ -372,7 +434,37 @@ color: rgba(255, 255, 255, 0.84);
     margin-left: 50px;
     margin-top: -px;
 }
+/*carousel*/
+.testimonial {
+    overflow: hidden;
+    position: relative;
 
+  }
 
-
-
+  .testimonial div {
+    width: 100%;
+    height: auto;
+  }
+  
+  .owl-theme .owl-controls .owl-page span {
+    border: 2px solid #2a3d7d;
+    background: #fff !important;
+    border-radius: 50% !important;
+    opacity: 1;
+  }
+  .owl-theme .owl-controls .owl-page.active span,
+  .owl-theme .owl-controls .owl-page:hover span {
+    background: red !important;
+    border-color: red;
+  }
+  @media only screen and (max-width: 767px) {
+    .testimonial {
+      padding: 20px;
+      text-align: center;
+    }
+    .testimonial .pic {
+      display: block;
+      position: static;
+      margin: 0 auto 15px;
+    }
+  }
