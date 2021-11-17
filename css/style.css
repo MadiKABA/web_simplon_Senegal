@@ -26,6 +26,10 @@ body
     font-size: 16px;
     font-family: bold;
 }
+.dropdown-toggle::after
+{
+    color: #CE0033;
+}
 .contact 
 {
    background-color: #CE0033;
