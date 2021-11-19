@@ -3,39 +3,51 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
     
 }
 body
 {
     overflow-x:hidden ;
-    background-color: whitesmoke;
 }
-.row >*
-{
-    padding-left: 0;
-    padding-right: 0;
-}
+
 .logo
 {
     width: 25%;
     height: 60px;
+    
 }
 .lien_li
 {
     margin-left: 20px;
     font-size: 16px;
     font-family: bold;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .dropdown-toggle::after
 {
     color: #CE0033;
 }
-.contact 
+.btn-contact 
 {
    background-color: #CE0033;
    border-radius: 50px;
    width: 100px;
+   height: 40px;
    color: #FFFFFF;
+   font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+
 }
 #langue
 {
@@ -49,8 +61,8 @@ body
     border-bottom: 5px solid #CE0033;
     color: blue;
 }
-#entreprise{
-    margin-left: 30px;
+#title-entreprise{
+    margin-left: 55px;
     
 }
 .img_partenariat
@@ -66,9 +78,11 @@ h1{
     top: 35%;
     left: 31%;
     color: white;
-}
-.centre
-{
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
     text-align: center;
 }
 .hr_bar{
@@ -78,9 +92,9 @@ h1{
     color: black;
     margin-top: -10px;
 }
-#le_reseaux_des_entreprises
+#section-le-reseaux-des-entreprises
 {
-    margin-left: 55px;
+    margin-top: -200px;
 }
 h2
 {
@@ -91,7 +105,7 @@ h2
     color: #CE0033;
     padding-bottom: 15px;
 }
-.reseau_entreprise p
+.description-reseau-des-entreprises p
 {
     font-size: 24px;
     text-align: left;
@@ -101,8 +115,9 @@ h2
     font-size: 24px;
     line-height: 53px;
     color: #000000;
+    padding: 0 30px;
 }
-.reseau_entreprise h3
+.description-reseau-des-entreprises h3
 {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
@@ -110,6 +125,16 @@ h2
     font-size: 30px;
     line-height: 171.4%;
     color: #CE0033;
+    padding: 0 30px;
+}
+
+.video_reseau_des_entreprise iframe
+{
+    margin-top: 20px;
+    width: 90%;
+    height: 450px;
+    margin-left: 55px;
+
 }
 .btn_carousel
 {
@@ -138,25 +163,13 @@ h2
     margin-bottom: 25px;
 
 }
-.filtre_img
+.vido-soutenir-nos-actions iframe
 {
-    background-color: black;
-    opacity: 0.4;
-    z-index: 1;
+    margin-top: 20px;
+    width: 90%;
+    height: 450px;
+    margin-left: 55px;
 }
-.vido_soutenir iframe
-{
-    margin-top: 30px;
-    border-radius: 15px;
-    margin-left: 40px;
-    z-index: 0;
-}
-.d1
-{
-    width: 100rem;
-    margin: 0;
-}
-
 .detail_soutenir
 {
     background-color: #CE0033;
@@ -174,7 +187,7 @@ h2
     padding: 15px;
     font-size: 24px;
 }
-.soutenir
+.btn-soutenir
 {
     width: 200px;
     margin: 0 auto;
@@ -206,7 +219,7 @@ h2
     margin: 0;
     
 }
-.detail_nous_soutenir h2
+.detail-soutenir-nos-actions h2
 {
     margin-top: 60px;
     color: white;
@@ -214,7 +227,7 @@ h2
     padding: 5px;
     
 }
-.detail_nous_soutenir p
+.detail-soutenir-nos-actions p
 {
     color: white;
     font-family: 'Nunito Sans', sans-serif;
@@ -252,12 +265,13 @@ h2
 .fabrique p
 {
 
-font-family:'Nunito Sans', sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 41px;
-color: #000000;
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #000000;
+    padding: 25px;
 }
 .text_card_body
 {
@@ -274,10 +288,20 @@ color: #000000;
 {
     border-radius: 50px;
 }
-.logo_partenaires
+.grille
 {
-    margin: 1pxx;
-    height: 200px;
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    grid-template-columns: repeat(auto-fill,250px);
+    justify-content: center;
+    grid-gap: 20px 25px;
+}
+.grid-item
+{
+    width: 250px;
+    height:250px;
 }
 .footer
 {
@@ -295,56 +319,33 @@ color: #000000;
 {
     margin: 50px;
     color: #FFFFFF;
-
-}
-#span1
-{
     font-family:'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
 }
-#span2
+
+.col-footer p
 {
-    
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 25px;
-    color: #FFFFFF;
-
-
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.84);
+    margin-left: 0;
+    text-decoration: none;
 }
-#span3
+.col-footer p>a
 {
 
-font-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 25px;
-color: #FFFFFF;
-
-
-}
-.col_footer 
-{
-    color: white;
-    margin-top: 3rem;
-    font-size: 10px;
-    padding-top: 10px;
-}
-.col_footer p
-{
-
-    font-family: Nunito Sans;
+    font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-    line-height: 42px;
     color: rgba(255, 255, 255, 0.84);
+    margin-left: 0;
+    text-decoration: none;
 }
 .col_footer_new
 {
@@ -403,28 +404,105 @@ color: #FFFFFF;
     border-bottom-right-radius: 15px;
 }
 @media screen and (max-width: 450px) {
+    h1
+    {
+        position: absolute;
+        top: 20%;
+        left: 18%;
+        color: white;
+        font-family:'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 98px;
+    }
+    h2 
+    {
+        font-size: 21px;
+        padding: 0 10px;
+    }
+    
+    .hr_bar
+    {
+        margin: 0 50px;
+    }
+    .centre h3
+    {
+        font-family: 'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 65px;
+        color: #CE0033;
+    }
+    .logo-simplon-header
+    {
+        width: 100px;
+    }
+    .video_reseau_des_entreprise iframe
+    {
+        width: 100%;
+        margin: 0 15px;
+    }
+    .vido-soutenir-nos-actions iframe
+    {
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    #section-le-reseaux-des-entreprises
+    {
+        margin-top: 0;
+    }
+    .description-reseau-des-entreprises p
+    {
+        padding: 5px;
+    }
+    .description-reseau-des-entreprises h3
+    {
+        padding: 5px;
+        font-size: 20px;
+        
+    }
+    
     .bar_separation{
         border-right: none;
         border-left: none;
         border-top: 3px solid;
         border-bottom: 3px solid;
       }
-      main{
-          overflow-x: hidden;
-      }
       .reseau_sociaux
       {
           width: 50px;
           height: 50px;
       }
-      #le_reseaux_des_entreprises
-      {
-          margin-left: 10px;
-      }
       #entreprise{
           margin-top: 200px;
           
       }
+      .fabrique p 
+      {
+          padding: 0 30px;
+      }
+      .section_fabrique
+        {
+            margin: 0 5px;
+        }
+        .grille
+        {
+            display: grid;
+            width: 100%;
+            height: auto;
+            margin: 30px auto;
+            grid-template-columns: repeat(auto-fill,100px);
+            justify-content: center;
+            grid-gap: 20px 25px;
+        }
+        .grid-item
+        {
+            width: 100px;
+            height:auto;
+        }
       .col_footer
       {
           margin-left:5rem;
@@ -449,20 +527,31 @@ color: #FFFFFF;
       {
           margin-left: 600px;
       }
-      .reseau_entreprise 
+      .description-reseau-des-entreprises
       {
-          margin:0 40px;
-          padding: 30px;
+        margin: 0 15px;
+        padding: 40px;
+        font-size: 15px;
+        margin-top: -90px;
       }
-      .detail_nous_soutenir
+      .detail-soutenir-nos-actions h2
       {
-          margin: 0 20px;
+          margin: 0 2px;
+          padding: 20px;
+          font-size: 23px;
+          font-family: 'Nunito Sans', sans-serif;
+          text-align: center;
+      }
+      .detail-soutenir-nos-actions p
+      {
+          margin: 0 5px;
           padding: 30px;
-          margin-top: -50px;
+          font-size: 23px;
+          font-family: 'Nunito Sans', sans-serif;
       }
       .img_container 
       {
-          height: 1500px;
+          height: 100%;
       }
       .div_detail
       {
@@ -479,9 +568,13 @@ color: #FFFFFF;
 .lien_item
 {
     font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
     font-size: 16px;
-    color:yellow;
-   
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 0 1rem;
 }
 .logo_simplon_footer
 {
