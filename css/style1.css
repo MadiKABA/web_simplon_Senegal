@@ -1,0 +1,382 @@
+
+.lien_item
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 0 1rem;
+}
+.dropdown-toggle::after
+{
+    color: #CE0033;
+}
+.btn-contact 
+{
+   background-color: #CE0033;
+   border-radius: 50px;
+   width: 100px;
+   height: 40px;
+   color: #FFFFFF;
+}
+.image-banner
+{
+    filter: saturate(0);
+}
+.div-section-banner h1
+{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: white;
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+}
+h2{
+    margin-left: 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    color: #CE0033;
+    padding-bottom: 15px;
+}
+.hr_bar{
+    width: 125px;
+    height: 5px;
+    background-color: black;
+    color: black;
+    margin-top: 2px;
+    margin-left: 80px;
+}
+.video_reseau_des_entreprise iframe
+{
+    width: 92%;
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 500px;
+    border-radius: 15px;
+}
+.description-reseau-des-entreprises p
+{
+    font-size: 24px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 53px;
+    color: #000000;
+    padding: 0 30px;
+}
+.description-reseau-des-entreprises h3
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 171.4%;
+    color: #CE0033;
+    padding: 0 30px;
+}
+.contenu-carousel h3
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    color: #CE0033;
+}
+.contenu-carousel button
+{
+    margin:2rem 0;
+    background-color: #CE0033;
+    border-radius: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.vido-soutenir-nos-actions iframe
+{
+    margin-top: 20px;
+    width: 95%;
+    height: 450px;
+    margin-left: 55px;
+    border-radius: 15px;
+}
+.grille
+{
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    grid-template-columns: repeat(auto-fill,250px);
+    justify-content: center;
+    grid-gap: 20px 25px;
+}
+.grid-item
+{
+    width: 250px;
+    height:250px;
+}
+.img_container
+{
+    background-image: url("../img/main2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    padding: 0;
+    margin: 0;
+    
+}
+.detail-soutenir-nos-actions h2
+{
+    margin-top: 60px;
+    color: white;
+    font-family: bold;
+    padding: 5px;
+    
+}
+.detail-soutenir-nos-actions p
+{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+}
+.div_detail
+{
+    background-color: #CE0033;
+    margin-top: -3rem;
+    z-index: 1;
+}
+.div_formation
+{
+    margin-top: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.bar_separation{
+    border-right: 3px solid;
+    border-left: 3px solid;
+}
+.text_card_body
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+}
+.btn-soutenir
+{
+    width: 200px;
+    margin: 0 auto;
+    color: #CE0033;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-size: 24px;
+    font-family: bold;
+}
+.btn_fabrique
+{
+    width: 292px;
+    height: 63px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #CE0033;
+    border-radius: 50px;
+    font-size: 24px;
+    font-family: bold;   
+}
+.footer
+{
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    width: 100%;
+}
+.col-footer p>a
+{
+
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.84);
+    margin-left: 0;
+    text-decoration: none;
+}
+.col-footer p
+{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.84);
+    margin-left: 0;
+    text-decoration: none;
+}
+.footer_red
+{
+    background-color: #CE0033;
+    width: 100%;
+    color: white;
+}
+.footer_red span
+{
+    margin: 50px;
+    color: #FFFFFF;
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 33px;
+}
+.heart
+{
+    width: 40px;
+}
+.reseau_sociaux
+{
+    width: 50px;
+}
+#email
+{
+    width: 100px;
+    height: 48px;
+    border: 0;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+#joindre
+{
+    width: 100px;
+    height: 48px;
+    background-color:#CE0033;
+    color: white;
+    font-size: 24px;
+    border: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+@media screen and (max-width: 450px) {
+    .lien-logo-simplon
+    {
+        width: 75%;
+    }
+    .active img{
+        margin-left: 15px;
+    }
+    .div-section-banner h1
+{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    color: white;
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 38px;
+}
+    h2{
+        margin-left: 0;
+        font-size: 25px;
+        text-align: center;
+    }
+    .hr_bar{
+        width: 125px;
+        margin: 0 auto;
+    }
+    .video_reseau_des_entreprise iframe
+    {
+        width: 100%;
+        margin:0 1px;
+        height: 250;
+    }
+    .description-reseau-des-entreprises p
+    {
+        padding: 5px;
+    }
+    .description-reseau-des-entreprises h3
+    {
+        padding: 5px;
+        font-size: 20px;
+        
+    }
+    .contenu-carousel h3
+    {
+        font-size: 17px;
+    }
+    .contenu-carousel button
+    {
+        font-size: 18px;
+    }
+    .grille
+    {
+        display: grid;
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+        grid-template-columns: repeat(auto-fill,150px);
+        justify-content: center;
+        grid-gap: 20px 25px;
+    }
+    .grid-item
+    {
+        width: 150px;
+        height:auto;
+    }
+    .detail-soutenir-nos-actions h2
+    {
+        margin-top: 10px;
+        color: white;
+        font-family: bold;
+        padding: 5px;
+        
+    }
+    .footer_red span
+    {
+        margin: 5px 10px;
+        color: #FFFFFF;
+        font-family:'Nunito Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .heart
+    {
+        width: 30px;
+    }
+    #email
+    {
+        font-size: 14px;
+        border-top-left-radius: 10px;
+    }
+    #joindre
+    {
+        font-size: 14px;
+        border: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}

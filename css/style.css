@@ -4,7 +4,9 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;   
+    border: 1px solid #CE0033;
 }
+
 .dropdown-toggle::after
 {
     color: #CE0033;
@@ -22,10 +24,6 @@
     font-size: 16px;
     line-height: 22px;
 
-}
-.items-partenariats
-{
-    border-bottom: 5px solid #CE0033;   
 }
 .img_banner
 {
@@ -331,7 +329,15 @@ h2
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+#title-entreprise
+{
+    margin-left: 0px;
+}
 @media screen and (max-width: 450px) {
+    .lien-logo-simplon
+    {
+        width: 65%;
+    }
     h1
     {
         position: absolute;
@@ -344,6 +350,11 @@ h2
         font-size: 32px;
         line-height: 98px;
     }
+    #title-entreprise
+    {
+        text-align: center;
+       
+    }
     h2 
     {
         font-size: 21px;
@@ -352,7 +363,7 @@ h2
     
     .hr_bar
     {
-        margin: 0 50px;
+        margin: 0 120px;
     }
     .centre h3
     {
@@ -365,7 +376,7 @@ h2
     }
     .logo-simplon-header
     {
-        width: 100px;
+        width: 100%;
     }
     .video_reseau_des_entreprise iframe
     {
@@ -517,3 +528,5 @@ h2
       margin: 0 auto 15px;
     }
   }
+
+  
